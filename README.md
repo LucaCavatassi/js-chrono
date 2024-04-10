@@ -22,3 +22,5 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 ### BONUS INVENTATO DA ME 
 Inserisci un tasto giro che prende il tempo e lo stampa in pagina.
+
+IN TEORIA - STAMPO IL CRONOMETRO INIZIALE CHE HO IN PAGINA, PARTE ANCHE UN SOTTO CRONOMETRO CHE HA LO 0 DA QUANDO HO CLICCATO, AL SECONDO CLICK STAMPO IL SOTTO CRONOMETRO - MA NON RIESCO LOL
