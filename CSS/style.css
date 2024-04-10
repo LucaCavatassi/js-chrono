@@ -1,0 +1,5 @@
+.chronometer{
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+}
