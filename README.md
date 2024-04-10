@@ -11,3 +11,10 @@ che cosa succede se utente clicca sull'avvia più volte?
 - [x] Creo setInterval per secondi
 - [x] Creo setInterval per minuti
 - [X] Quando setInterval dei secondi arriva a 59 si azzera e incrementa i minuti
+- [X] Creo bottone start
+- [X] Creo bottone stop 
+- [X] Creo bottone reset
+- [X] Aggiungo event listener ad ogni bottone
+- [X] Al click di start part il setInterval
+- [X] Al click di stop clearInterval
+- [X] Al click di reset seconds 0 e minutes 0
