@@ -8,6 +8,6 @@ che cosa succede se utente clicca sull'avvia più volte?
 
 - [X] Creo Cartella
 - [X] Creo Layout Visuale su cui inserire risultato
-- [ ] Creo setInterval per secondi
-- [ ] Creo setInterval per minuti
-- [ ] Quando setInterval dei secondi arriva a 59 si azzera e incrementa i minuti
+- [x] Creo setInterval per secondi
+- [x] Creo setInterval per minuti
+- [X] Quando setInterval dei secondi arriva a 59 si azzera e incrementa i minuti

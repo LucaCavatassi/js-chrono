@@ -1,15 +1,15 @@
-// DOM ELEM
-const minutesDom = document.querySelector(".minutes")
-console.log(minutesDom);
-const secondsDom = document.querySelector(".seconds")
-console.log(secondsDom);
-
-let seconds = 0;
+let seconds = 57;
 let minutes = 0;
 
-let secondCounter = setInterval(function(){
-    seconds++
-    console.log(seconds);
+let chrono = setInterval(function(){
+    if (seconds < 59){
+        seconds++;
+        console.log(seconds);
+    } else {
+        seconds = 0;
+        minutes++;
+    }
+    printer(seconds, minutes)
 }, 1000)
 
-clearInterval(secondCounter)
+
