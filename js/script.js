@@ -42,12 +42,13 @@ buttonsNode[1].addEventListener ("click",function(){
 buttonsNode[2].addEventListener ("click",function(){
     // RESET SECONDS
     seconds = 0;
-    // RESET PRINT
-    secondsDom.innerHTML = ("00");
     // RESET MINUTES
     minutes = 0;
     // RESET PRINT
+    secondsDom.innerHTML = ("00");
+    // RESET PRINT
     minutesDom.innerHTML = ("00");
+    clearInterval(chrono);
     console.log("RESET");
 })
 buttonsNode[3].addEventListener ("click",function(){
