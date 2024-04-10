@@ -18,3 +18,7 @@ che cosa succede se utente clicca sull'avvia più volte?
 - [X] Al click di start part il setInterval
 - [X] Al click di stop clearInterval
 - [X] Al click di reset seconds 0 e minutes 0
+
+
+### BONUS INVENTATO DA ME 
+Inserisci un tasto giro che prende il tempo e lo stampa in pagina.

@@ -37,7 +37,6 @@ buttonsNode[0].addEventListener ("click",function(){
 buttonsNode[1].addEventListener ("click",function(){
     // STOP CHRONO
     clearInterval(chrono);
-    console.log(`STOP AT ${seconds} SECONDS AND ${minutes} MINUTES`);
 })
 // RESET
 buttonsNode[2].addEventListener ("click",function(){
@@ -50,6 +49,17 @@ buttonsNode[2].addEventListener ("click",function(){
     // RESET PRINT
     minutesDom.innerHTML = ("00");
     console.log("RESET");
+})
+buttonsNode[3].addEventListener ("click",function(){
+    let secondSaver = seconds;
+    let minutesSaver = minutes;
+    minutesSaver = minutes - minutesSaver
+    const ulDom = document.querySelector(".loops");
+    const newElem = document.createElement("li");
+    
+    newElem.innerHTML = `Giro &nbsp; ${secondSaver} SECONDS AND ${minutesSaver} MINUTES`;
+    ulDom.append(newElem);
+
 })
 
 
